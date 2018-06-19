@@ -33,9 +33,10 @@ const MediumPost = ({ data }) => {
    const { edges } = data.allMediumPost;
    console.log(edges);
    const posts = edges.map(edge => {
+  
       const node = edge.node;
-      return `<div style="margin-bottom:2em;">
-        <h2>${node.title}</h2>
+     return `<div style="border: 1px solid #eaecee; padding: 2em 4em; margin-bottom:2em;">
+        <h3>${node.title}</h3>
         <p>${node.virtuals.subtitle}</p>
         <p><a href="${node.url}">Read More</a></p>
       </div>`;
