@@ -15,7 +15,7 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <form className="contactForm" name="contact" action="thank-you" netlify>
+              <form className="contactForm" name="contact" action="thanks" netlify>
                 <input type="text" placeholder="Your Name" name="name" />
                 <input type="email" placeholder="Your Email" name="email" />
                 <textarea name="message" placeholder="What's on your mind?"></textarea>
