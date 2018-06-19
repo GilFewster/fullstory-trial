@@ -24,6 +24,9 @@ const Navbar = () => (
         <Link className="navbar-item" to="/medium">
           Medium Posts
         </Link>
+        <Link className="navbar-item" to="/contact">
+          Contact Us
+        </Link>
       </div>
       <div className="navbar-end">
         <a
