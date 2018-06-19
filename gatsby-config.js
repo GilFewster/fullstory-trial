@@ -28,6 +28,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@gilfewster`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
